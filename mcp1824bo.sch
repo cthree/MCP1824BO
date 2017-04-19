@@ -7609,10 +7609,167 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="C3-Switches">
+<packages>
+<package name="CL-SB-12B">
+<description>Copal CL-SB-12B SPDT Slide Switch Gullwing SMD</description>
+<wire x1="-4.25" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.75" x2="0" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="0" y1="-1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.75" x2="4.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="4.25" y1="-1.75" x2="4.25" y2="1.75" width="0.127" layer="51"/>
+<wire x1="4.25" y1="1.75" x2="-4.25" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="1.75" x2="-4.25" y2="-1.75" width="0.127" layer="51"/>
+<smd name="C" x="0" y="2.2" dx="1.2" dy="1.4" layer="1"/>
+<smd name="3" x="2.5" y="-2.2" dx="1.2" dy="1.4" layer="1"/>
+<smd name="1" x="-2.5" y="-2.2" dx="1.2" dy="1.4" layer="1"/>
+<wire x1="0" y1="0.75" x2="1.75" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="0.75" x2="1.75" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-0.75" x2="0" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="0" y1="-0.75" x2="0" y2="0.75" width="0.127" layer="51"/>
+<wire x1="0" y1="0.75" x2="-1.75" y2="0.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="0.75" x2="-1.75" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-0.75" x2="0" y2="-0.75" width="0.127" layer="51"/>
+<text x="0" y="3.6" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.6" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-3.5" y1="-1.75" x2="-4.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="-1.75" x2="-4.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="1.75" x2="-1" y2="1.75" width="0.127" layer="21"/>
+<wire x1="1" y1="1.75" x2="4.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="4.25" y1="1.75" x2="4.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="4.25" y1="-1.75" x2="3.5" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.75" x2="-1.5" y2="-1.75" width="0.127" layer="21"/>
+<hole x="-3.4" y="0" drill="0.9"/>
+<hole x="3.4" y="0" drill="0.9"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-3.75" x2="0" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="0" y1="-3.75" x2="0" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-3.75" x2="0" y2="-3.75" width="0.127" layer="51" style="shortdash"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-3.75" width="0.127" layer="51" style="shortdash"/>
+</package>
+<package name="CL-SB-12A">
+<description>Copal CL-SB-12A SPDT Slide Switch J-Lead SMD</description>
+<wire x1="-4.25" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.75" x2="0" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="0" y1="-1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.75" x2="4.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="4.25" y1="-1.75" x2="4.25" y2="1.75" width="0.127" layer="51"/>
+<wire x1="4.25" y1="1.75" x2="-4.25" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="1.75" x2="-4.25" y2="-1.75" width="0.127" layer="51"/>
+<smd name="C" x="0" y="1.4" dx="1.2" dy="1.6" layer="1" roundness="20"/>
+<smd name="3" x="2.5" y="-1.4" dx="1.2" dy="1.6" layer="1" roundness="20"/>
+<smd name="1" x="-2.5" y="-1.4" dx="1.2" dy="1.6" layer="1" roundness="20"/>
+<wire x1="0" y1="0.75" x2="1.75" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="0.75" x2="1.75" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-0.75" x2="0" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="0" y1="-0.75" x2="0" y2="0.75" width="0.127" layer="51"/>
+<wire x1="0" y1="0.75" x2="-1.75" y2="0.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="0.75" x2="-1.75" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-0.75" x2="0" y2="-0.75" width="0.127" layer="51"/>
+<text x="0" y="3.6" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.6" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-3.5" y1="-1.75" x2="-4.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="-1.75" x2="-4.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="1.75" x2="-1" y2="1.75" width="0.127" layer="21"/>
+<wire x1="1" y1="1.75" x2="4.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="4.25" y1="1.75" x2="4.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="4.25" y1="-1.75" x2="3.5" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.75" x2="-1.5" y2="-1.75" width="0.127" layer="21"/>
+<hole x="-3.4" y="0" drill="0.9"/>
+<hole x="3.4" y="0" drill="0.9"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-3.75" x2="0" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="0" y1="-3.75" x2="0" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-3.75" x2="0" y2="-3.75" width="0.127" layer="51" style="shortdash"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-3.75" width="0.127" layer="51" style="shortdash"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SLIDE-1P2T">
+<description>Single Pole, Double Throw Slider Switch</description>
+<pin name="1" x="-5.08" y="-10.16" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="2" x="0" y="-10.16" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="3" x="5.08" y="-10.16" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="-7.62" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="0"/>
+<vertex x="3.81" y="-1.016"/>
+<vertex x="3.81" y="1.016"/>
+</polygon>
+<wire x1="2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CL-SB-12?-*" prefix="SW">
+<description>Copal CL-SB Series Slide Switch</description>
+<gates>
+<gate name="A" symbol="SLIDE-1P2T" x="0" y="5.08" swaplevel="1"/>
+</gates>
+<devices>
+<device name="B" package="CL-SB-12B">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="C"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="01">
+<attribute name="ACTION" value="TOP"/>
+<attribute name="PLATING" value="SILVER"/>
+</technology>
+<technology name="02">
+<attribute name="ACTION" value="TOP"/>
+<attribute name="PLATING" value="GOLD"/>
+</technology>
+<technology name="11">
+<attribute name="ACTION" value="SIDE"/>
+<attribute name="PLATING" value="SILVER"/>
+</technology>
+<technology name="12">
+<attribute name="ACTION" value="SIDE"/>
+<attribute name="PLATING" value="GOLD"/>
+</technology>
+</technologies>
+</device>
+<device name="A" package="CL-SB-12A">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="C"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="01">
+<attribute name="ACTION" value="TOP"/>
+<attribute name="PLATING" value="SILVER"/>
+</technology>
+<technology name="02">
+<attribute name="ACTION" value="TOP"/>
+<attribute name="PLATING" value="GOLD"/>
+</technology>
+<technology name="11">
+<attribute name="ACTION" value="SIDE"/>
+<attribute name="PLATING" value="SILVER"/>
+</technology>
+<technology name="12">
+<attribute name="ACTION" value="SIDE"/>
+<attribute name="PLATING" value="GOLD"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="PART_NUM" value="MCP1824BO"/>
-<attribute name="REV" value="A"/>
+<attribute name="REV" value="B"/>
 <attribute name="TITLE" value="MCP1824-ADJ Breakout"/>
 </attributes>
 <variantdefs>
@@ -7637,7 +7794,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <part name="LOGO1" library="C3-General" deviceset="OSHW-LOGO" device="S"/>
 <part name="J1" library="C3-Connector" deviceset="M02" device="PTH"/>
 <part name="J2" library="C3-Connector" deviceset="M02" device="PTH"/>
-<part name="J3" library="C3-Connector" deviceset="M02" device="PTH"/>
 <part name="J4" library="C3-Connector" deviceset="M05" device="USB-MICRO" value="10118194-0001LF"/>
 <part name="D1" library="C3-Comchip" deviceset="CZRB*?" device="B-HF" technology="5338"/>
 <part name="F1" library="C3-Littelfuse" deviceset="1206L*" device="" technology="100" value="1.8A"/>
@@ -7650,6 +7806,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <part name="U$2" library="C3-General" deviceset="GND" device=""/>
 <part name="U$4" library="C3-General" deviceset="VOUT" device=""/>
 <part name="U$3" library="C3-General" deviceset="VOUT" device=""/>
+<part name="SW1" library="C3-Switches" deviceset="CL-SB-12?-*" device="A" technology="01"/>
 </parts>
 <sheets>
 <sheet>
@@ -7673,7 +7830,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="LOGO1" gate="G$1" x="129.54" y="17.78"/>
 <instance part="J1" gate="G" x="71.12" y="142.24"/>
 <instance part="J2" gate="G" x="200.66" y="144.78" rot="R180"/>
-<instance part="J3" gate="G" x="91.44" y="127"/>
 <instance part="J4" gate="G$1" x="71.12" y="106.68"/>
 <instance part="D1" gate="A" x="104.14" y="91.44" rot="R90"/>
 <instance part="F1" gate="A" x="88.9" y="101.6"/>
@@ -7686,6 +7842,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="U$2" gate="1" x="132.08" y="160.02"/>
 <instance part="U$4" gate="A" x="193.04" y="149.86"/>
 <instance part="U$3" gate="A" x="177.8" y="160.02"/>
+<instance part="SW1" gate="A" x="88.9" y="129.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7694,8 +7851,9 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <segment>
 <pinref part="C9" gate="A" pin="1"/>
 <pinref part="GND" gate="1" pin="GND"/>
-<wire x1="111.76" y1="134.62" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="134.62" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="124.46" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="111.76" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="111.76" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
@@ -7709,6 +7867,9 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="104.14" y1="91.44" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <junction x="111.76" y="88.9"/>
+<pinref part="SW1" gate="A" pin="1"/>
+<wire x1="99.06" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<junction x="111.76" y="124.46"/>
 </segment>
 <segment>
 <pinref part="R8" gate="A" pin="2"/>
@@ -7757,7 +7918,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pinref part="R8" gate="A" pin="1"/>
 <wire x1="121.92" y1="129.54" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G" pin="2"/>
 <wire x1="99.06" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
 <junction x="121.92" y="129.54"/>
 <pinref part="R1" gate="A" pin="1"/>
@@ -7765,6 +7925,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="121.92" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="93.98" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
 <junction x="116.84" y="129.54"/>
+<pinref part="SW1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="ADJ2" class="0">
@@ -7794,10 +7955,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <junction x="111.76" y="144.78"/>
 <pinref part="J1" gate="G" pin="2"/>
 <wire x1="78.74" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G" pin="1"/>
 <wire x1="104.14" y1="144.78" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="127" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
 <junction x="104.14" y="144.78"/>
 <pinref part="U$1" gate="A" pin="VIN"/>
 <wire x1="104.14" y1="167.64" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
@@ -7806,12 +7964,15 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="104.14" y1="162.56" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="101.6" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="127" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
-<junction x="104.14" y="127"/>
+<wire x1="104.14" y1="144.78" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
 <junction x="104.14" y="101.6"/>
 <pinref part="R3" gate="A" pin="1"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
 <junction x="104.14" y="162.56"/>
+<pinref part="SW1" gate="A" pin="3"/>
+<wire x1="99.06" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
+<junction x="104.14" y="134.62"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
